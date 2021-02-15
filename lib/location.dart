@@ -37,7 +37,7 @@ class _ConvertGeocodesToAddressState extends State<ConvertGeocodesToAddress> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(height: 10,),
-            Text("Your Location is Identified as follows:"),
+            Text("Your Location is Identified as follows : "),
             SizedBox(height: 20,),
             Text("latitude:${_position?.latitude?? '-'}, longitude:${_position?.longitude?? '-'}"),
             SizedBox(height: 20,),
